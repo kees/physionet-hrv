@@ -48,7 +48,7 @@ char *argv[];
     }
 
     if ((nbands = argc/2) > 10) {
-        fprintf(stderr, "%s : max power bands = MAXBANDS\n");
+        fprintf(stderr, "%s : max power bands = MAXBANDS\n", argv[0]);
         exit(1);
     }
 
