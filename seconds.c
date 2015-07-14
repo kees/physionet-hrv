@@ -14,7 +14,7 @@ main(argc, argv)
 int argc;
 char *argv[];
 {
-    char *time[12];
+    char time[12];
     long strtim();
 
     if (argc < 2) {
