@@ -1,0 +1,7 @@
+http://physionet.org/tutorials/hrv-toolkit/
+http://physionet.org/physiotools/wfdb-linux-quick-start.shtml
+
+make CC="gcc -I../physionet-wfdb/build/include -L../physionet-wfdb/build/lib"
+
+LD_LIBRARY_PATH=../physionet-wfdb/build/lib PATH=".:../physionet-wfdb/build/bin:$PATH" \
+    ./get_hrv -mMR data.rr
